@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    padding: 5px;
+
+}
+
+#text-area {
+    font-family: Arial;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+#text-area {
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#font-family {
+    width: 100px;
+    height: 25px;
+}
+
+#font-size {
+    width: 50px;
+    height: 25px;
+}
+
+#font-color {
+    width: 100px;
+    height: 25px;
+}
+
+#background-color {
+    width: 100px;
+    height: 25px;
+}
+
+#add-text-button {
+    width: 100px;
+    height: 35px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#undo-button {
+    width: 100px;
+    height: 35px;
+    background-color: #FF0000;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+#redo-button {
+    width: 100px;
+    height: 35px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.font-family-drop_down {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.font-size-drop-down {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.font-color-drop-down {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.background-color-drop-down {
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

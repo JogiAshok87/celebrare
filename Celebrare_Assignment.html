@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div>
+        <textarea rows="8" cols="55" id="text-area" placeholder="Enter your Text" autofocus="autofocus"></textarea>
+    </div>
+    <br>
+    <div class="font-family-drop_down">
+        <label for="font-family">Font Family:</label>
+        <select id="font-family">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+            <option vlaue="Georgia">Georgia</option>
+        </select>
+    </div>
+    <div class="font-size-drop-down">
+        <label for="font-size">Font Size:</label>
+        <select id="font-size">
+            <option value="12">12</option>
+            <option value="14">14</option>
+            <option value="16">16</option>
+            <option value="16">18</option>
+            <option value="16">20</option>
+        </select>
+    </div>
+    <div class="font-color-drop-down">
+        <label for="font-color">Font Color:</label>
+        <input type="color" id="font-color">
+    </div>
+    <div class="background-color-drop-down">
+        <label for="background-color">Background Color:</label>
+        <input type="color" id="background-color">
+    </div>
+    <div class="btn-container">
+        <button id="add-text-button">Add Text</button>
+        <button id="undo-button">Undo</button>
+        <button id="redo-button">Redo</button>
+    </div>
+
+</body>
+
+</html>
